@@ -1,0 +1,140 @@
+.heading {
+  text-align: center;
+  justify-content: center;
+  width: max-content;
+  padding-left: 21px;
+  padding-right: 21px;
+  // border-left: 7px solid #edc334;
+  margin: auto;
+  // border: 1px solid black;
+  color: black;
+}
+.desc > h2 {
+  text-align: center;
+  justify-content: center;
+  width: fit-content;
+  padding-left: 25px;
+  padding-right: 25px;
+  // border: 1px solid black;
+  border-radius: 25px;
+  margin-left: 13px;
+  background-color: rgba(65, 105, 225, 0.404);
+  // border-left: 7px solid #edc334;
+}
+.desc > h4 > span {
+  color: #edc334;
+}
+.desc > h3 {
+  color: rgba(128, 128, 128, 0.664);
+  font-size: 26px;
+  width: 40rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  // border: 2px solid black;
+}
+.desc > p {
+  width: 99%;
+  margin: auto;
+}
+.desc {
+  // border: 1px solid black;
+  width: 56rem;
+  margin-left: 3.5rem;
+  padding: 0 7px 7px 7px;
+}
+.vision {
+  width: 43rem;
+  margin: auto;
+  border: 1px solid black;
+  padding: 0 10px 21px 17px;
+  border-radius: 23px;
+  
+}
+.vision > h2 {
+
+  padding-left: 11px;
+  background-color: #C8E4B2;
+  color: white;
+  width: fit-content;
+  border-radius: 30px;
+  padding-right: 17px;
+  padding-left: 17px;
+  margin-bottom: 10px;
+}
+.vision > p {
+  // background-color: rgba(95, 158, 160, 0.61);
+  margin-left: 17px;
+}
+.vision-image {
+  width: 43rem;
+  // border: 2px solid black;
+}
+.vision-top {
+  display: flex;
+  margin: auto;
+  width: 90rem;
+  // border:  2px solid seagreen;
+  overflow: hidden;
+}
+.logo {
+  // border: 2px solid black;
+  width: 87rem;
+  margin: auto;
+  height: 24rem;
+  display: flex;
+  justify-content: center;
+}
+.logo-1 {
+  justify-content: end;
+  text-align: end;
+  margin-right: 23px;
+  font-size: 19px;
+  height: fit-content;
+  border-radius: 7px;
+  // border: 2px solid palegreen;
+  padding: 10px;
+  background-color: #C8E4B2;
+  width: 20rem;
+  color: white;
+  height: 15rem;
+}
+.logo-2 {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 7px;
+  // border: 2px solid palegreen;
+  padding: 10px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 19px;
+  color: white;
+  background-color: #C8E4B2;
+}
+.logo-2 > img {
+  width: 18rem;
+  height: 18rem;
+}
+.logo-3 {
+  justify-content: end;
+  font-size: 19px;
+  text-align: start;
+  margin-left: 23px;
+  width: 20rem;
+  height: 15rem;
+  border-radius: 7px;
+  // border: 2px solid palegreen;
+  padding: 10px;
+  background-color: #C8E4B2;
+  color: white;
+}
+.who-are-we {
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 28px;
+  // border: 2px solid palegreen;
+  height: max-content;
+  border-radius: 7px;
+}
+.lines {
+  height: max-content;
+  font-size: 18px;
+}

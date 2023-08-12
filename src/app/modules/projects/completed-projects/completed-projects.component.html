@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      <ngb-accordion
+        [closeOthers]="true"
+        (panelChange)="this.selectedProject = panelChange($event)"
+        [activeIds]="this.selectedProject.Id + ''"
+      >
+        <ng-container *ngFor="let project of projects">
+          <ngb-panel
+            title="{{ project.client }} | {{ project.title }}"
+            id="{{ project.Id }}"
+          >
+            <ng-template ngbPanelContent>
+              Scope: {{ project.scope }} <br /><br />
+              {{ project.description }} <br /><br />
+              Status: {{ project.status }}
+            </ng-template>
+          </ngb-panel></ng-container
+        >
+      </ngb-accordion>
+    </div>
+    <div class="col-md-7">
+      <app-projects-carousel
+        [images]="this.selectedProject.images"
+      ></app-projects-carousel>
+    </div>
+  </div>
+</div>
